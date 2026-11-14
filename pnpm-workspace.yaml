@@ -1,0 +1,8 @@
+packages:
+  - apps/*
+  - packages/*
+
+# Install scripts of dependencies are blocked by default. List a package here
+# with true to allow its script, or false to record that it stays blocked.
+allowBuilds:
+  esbuild: false
